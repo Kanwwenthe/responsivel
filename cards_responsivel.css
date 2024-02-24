@@ -1,6 +1,9 @@
+ body{
+  margin: 0;
+  background-color: hsl(210, 40%, 10%) 
+ }
  
- 
- h1{
+ h1{color: white;
   font-size:30px; 
    margin: 23px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -9,22 +12,23 @@
 .maxwidth{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  font-weight: 900;
-  max-width: 90.39em; 
-  background-color: rgb(255, 255, 255); margin: auto;
+  max-width: 90.50em; 
+  background-color: hsl(210, 40%, 10%) ; margin: auto;
 }
 .top_header{
+   
    display: block; 
  width: 100%;
 }
 .nav_top{
-   
+    
   text-align: center;
-  
- color: rgb(0, 0, 0);
+  background-color: hsl(210, 40%, 10%);
+ color: rgb(255, 255, 255);
   width:100%;
 }
  ul{  display: inline-flex;
-  background-color: rgb(255, 255, 255);
+  
   padding-left: 0;
   padding-right: 0;
  }
@@ -35,44 +39,85 @@
  }
  
   .color1:hover{
-    border-bottom: 2px solid blueviolet;
+    border-bottom: 2px solid rgb(255, 0, 0);
    transition: 1s ease-in;
    
   
 } 
 .color2:hover {
-  border-bottom: 2px solid blueviolet;
+  border-bottom: 2px solid rgb(255, 0, 0);
   transition: 1s ease-in;
   
  
  
 }
 .color3:hover{
-  border-bottom: 2px solid blueviolet;
+  border-bottom: 2px solid rgb(255, 0, 0);
   transition: 1s ease-in;
  
 }
 h1:hover{
    color: blueviolet;
 }
-.container-widthmax{
+.container-widthmax{ 
+  background-image: url(imagens/messi_png_by_mina0127_dc4gfzz-fullview.png );  
+  background-size:335px; background-repeat: no-repeat; background-position:70%;
   background-color:  hsl(216, 28%, 7%);
   padding: 1em;
-   height: 100%;
+  border-radius: 10px;
+   height: 100%; 
   font-weight: bold;
-  text-align: center; color: aliceblue;
+    color: rgb(255, 255, 255);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
   
  a{ border-radius: 10px;
   padding: 12px;
-  border: 1px solid  aquamarine;
-  color: white;
+  border: 1px solid  rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
  text-decoration: none;
-  background-color: aquamarine;
+  background-color: rgb(255, 0, 0);
 }
    
 img{
   width:0;
   
 }
+h2{
+  text-align: center;
+  color:rgb(255, 255, 255);
+ }
+ h3{
+  text-align: center;
+ }
+ article{
+  width: 100%;
+ }
+
+ #div-display{ margin:3px;
+  color: rgb(255, 255, 255);
+  font-size: 12px;  width:  100%;
+ }
+#div1{
+  margin:10px;
+  border-radius: 5px;
+  border: 1px solid white;
+
+}
+#div2{
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  
+}
+#div3{
+  background-repeat: no-repeat;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  
+}
+img{
+  filter: saturate(100%);
+  width: 100%;
+ }
